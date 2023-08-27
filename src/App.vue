@@ -7,14 +7,17 @@
       <button @click="count++">Noot</button>
     </div>
   </div>
+  <QuoteViewer/>
 </template>
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
+import QuoteViewer from "@/components/QuoteViewer.vue";
 
 export default defineComponent({
   name: 'App',
   components: {
+    QuoteViewer,
   },
   setup() {
     const count = ref(2);
@@ -58,5 +61,6 @@ button {
   background-color: #c0230e;
   border-radius: 2mm;
   padding: 10px;
+  margin: 10px;
 }
 </style>
