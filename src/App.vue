@@ -1,13 +1,16 @@
 <template>
-  <p>This text is not in Dutch, Google. Please stop asking.</p>
-  <img src="./assets/feathers-exposed-1080.webp" class="bg-image"/>
+  <p>This text is not in Dutch, Google. Please stop to translate it!</p>
+  <img src="./assets/feathers-exposed-1080.webp" class="bg-image" />
+  <Suspense>
+    <QuoteViewer />
+    <template #fallback>Loading...</template>
+  </Suspense>
   <div class="bottom">
     <div class="button-box">
       <p>Noot n{{ "o".repeat(count) }}t!</p>
       <button @click="count++">Noot</button>
     </div>
   </div>
-  <QuoteViewer/>
 </template>
 
 <script lang="ts">
@@ -39,7 +42,9 @@ export default defineComponent({
   color: #0e1a23;
 }
 
-html {background-color: #1d1d24}
+html {
+  background-color: #1d1d24
+}
 
 button {
   box-shadow: 5px 5px 5px -4px rgba(0, 0, 0, 0.52);
