@@ -1,6 +1,15 @@
 <template>
-  <p>This text is not in Dutch, Google. Please stop to translate it!</p>
+  <p>This text is not in Dutch, Google. Please stop asking to translate it!</p>
   <img src="./assets/feathers-exposed-1080.webp" class="bg-image" />
+  <div class="heck">
+    <h3>Clicky Stuff!</h3>
+    <nav>
+      <a href="https://twitch.tv/featherderg" title="The place to watch the stream!" target="_blank" rel="noopener noreferrer">Twitch</a> |
+      <a href="https://twitter.com/FeatherDerg" title="The website formerly known as Twitter!" target="_blank" rel="noopener noreferrer">Twitter</a> |
+      <a href="https://www.youtube.com/channel/UC2NzjeOEK1VAdcEdMZhjb2g" title="Weird humansona, nerd!" target="_blank" rel="noopener noreferrer">YouTube</a>
+    </nav>
+    <h6><small>(don't worry, they'll open in a new tab)</small></h6>
+  </div>
   <Suspense>
     <QuoteViewer />
     <template #fallback>Loading...</template>

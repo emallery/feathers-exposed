@@ -1,5 +1,6 @@
 <template>
-  <div class="heck">Quotes From the Stream!
+  <div class="heck">
+    <h3>Quotes From the Stream!</h3>
     <div class="quote-text">
       <li v-for="item in text" :key="item">
         {{ item }}
@@ -35,6 +36,7 @@ export default defineComponent({
   background-color: #c0230e;
   border-radius: 2mm;
   padding: 10px;
+  margin: 5px;
 }
 
 .quote-text {
