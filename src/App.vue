@@ -4,9 +4,12 @@
   <div class="heck">
     <h3>Clicky Stuff!</h3>
     <nav>
-      <a href="https://twitch.tv/featherderg" title="The place to watch the stream!" target="_blank" rel="noopener noreferrer">Twitch</a> |
-      <a href="https://twitter.com/FeatherDerg" title="The website formerly known as Twitter!" target="_blank" rel="noopener noreferrer">Twitter</a> |
-      <a href="https://www.youtube.com/channel/UC2NzjeOEK1VAdcEdMZhjb2g" title="Weird humansona, nerd!" target="_blank" rel="noopener noreferrer">YouTube</a>
+      <a href="https://twitch.tv/featherderg" title="The place to watch the stream!" target="_blank"
+        rel="noopener noreferrer">Twitch</a> |
+      <a href="https://twitter.com/FeatherDerg" title="The website formerly known as Twitter!" target="_blank"
+        rel="noopener noreferrer">Twitter</a> |
+      <a href="https://www.youtube.com/channel/UC2NzjeOEK1VAdcEdMZhjb2g" title="Weird humansona, nerd!" target="_blank"
+        rel="noopener noreferrer">YouTube</a>
     </nav>
     <h6><small>(don't worry, they'll open in a new tab)</small></h6>
   </div>
@@ -76,5 +79,18 @@ button {
   border-radius: 2mm;
   padding: 10px;
   margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+  color: rgb(95, 25, 175);
+  filter: drop-shadow(5px 5px 10px #00000070);
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: rgb(245, 221, 243);
+  }
 }
 </style>
