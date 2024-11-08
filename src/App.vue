@@ -6,8 +6,8 @@
     <nav>
       <a href="https://twitch.tv/featherderg" title="The place to watch the stream!" target="_blank"
         rel="noopener noreferrer">Twitch</a> |
-      <a href="https://twitter.com/FeatherDerg" title="The website formerly known as Twitter!" target="_blank"
-        rel="noopener noreferrer">Twitter</a> |
+      <a href="https://bsky.app/profile/feathers.exposed" title="On to bluer skies, I guess..." target="_blank"
+        rel="noopener noreferrer">Bluesky</a> |
       <a href="https://www.youtube.com/channel/UC2NzjeOEK1VAdcEdMZhjb2g" title="Weird humansona, nerd!" target="_blank"
         rel="noopener noreferrer">YouTube</a>
     </nav>
