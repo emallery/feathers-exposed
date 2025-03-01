@@ -17,7 +17,7 @@ export default defineComponent({
     const text = ref(["Loading..."]);
     async function getQuotes() {
       // Axios?
-      const response = await fetch('https://feathers.exposed/api/quotes');
+      const response = await fetch('https://www.feathers.exposed/api/quotes');
       const jsonResponse = await response.json();
       return (jsonResponse as Array<any>).map(e => { return `#${e.ID}: "${e.Quote}" -- ${e.GameName}` });
     }
