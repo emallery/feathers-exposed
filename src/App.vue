@@ -6,9 +6,9 @@
     <nav>
       <a href="https://twitch.tv/featherderg" title="The place to watch the stream!" target="_blank"
         rel="noopener noreferrer">Twitch</a> |
-      <a href="https://bsky.app/profile/feathers.exposed" title="On to bluer skies, I guess..." target="_blank"
+      <a href="https://bsky.app/profile/featherderg.net" title="On to bluer skies, I guess..." target="_blank"
         rel="noopener noreferrer">Bluesky</a> |
-      <a href="https://www.youtube.com/channel/UC2NzjeOEK1VAdcEdMZhjb2g" title="Weird humansona, nerd!" target="_blank"
+      <a href="https://www.youtube.com/@FeatheryFiddler" title="Weird humansona, nerd!" target="_blank"
         rel="noopener noreferrer">YouTube</a>
     </nav>
     <h6><small>(don't worry, they'll open in a new tab)</small></h6>
