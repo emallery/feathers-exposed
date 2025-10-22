@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="./favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragons!</title>
+  <link href="minimal-table.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .fake-shadow {
+      box-shadow: 6px 5px 35px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 5px;
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+
+    body {
+      margin: 16px;
+      background-size: 100% 100%;
+      background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+      background-image: radial-gradient(49% 81% at 45% 47%, #FFE20345 0%, #073AFF00 100%), radial-gradient(113% 91% at 17% -2%, #FF5A00FF 1%, #FF000000 99%), radial-gradient(142% 91% at 83% 7%, #FFDB00FF 1%, #FF000000 99%), radial-gradient(142% 91% at -6% 74%, #FF0049FF 1%, #FF000000 99%), radial-gradient(142% 91% at 111% 84%, #FF7000FF 0%, #FF0000FF 100%);
+    }
+
+    .main {
+      max-width: 1200px;
+      display: block;
+
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+
+      background-color: rgba(241, 231, 214, 0.841);
+
+      @media (prefers-reduced-transparency: reduce) {
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+
+      box-shadow: 6px 5px 18px 0px rgba(0, 0, 0, 0.35);
+    }
+
+    code {
+      display: inline-block;
+      white-space: nowrap;
+      font-weight: bold;
+      color: black;
+      background-color: white;
+      padding: 4px 10px 4px;
+      border-radius: 4px;
+      box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.35);
+    }
+  </style>
+
+  <div class="main">
+    <h1>Hewwo! 🪶🎵</h1>
+    <p>This guide will help you install the <i>Dragon Survival</i> mod needed to
+      play on my minecwaf server :3</p>
+
+    <img src="img/dragon1.png">
+
+    <p>If you already know what you're doing, then feel free to follow the
+      instructions on the <a href="https://github.com/DragonSurvivalTeam/DragonSurvival/wiki/">
+        Dragon Survival Wiki</a>. <b>Check my <a href="#mod-list">mod list</a> to
+        make sure you get the right versions of everything.</b>
+
+    <h1>Installation</h1>
+
+    <p>
+      First of all, I <strong>highly</strong> recommend using
+      <a href="https://prismlauncher.org/">Prism Launcher</a> as an alternative to
+      the <a href="https://www.minecraft.net/en-us/download">default Minecraft launcher</a>
+      for managing mods. Among other features, Prism Launcher makes it
+      significantly easier to install, update, and downgrade mods, and can keep
+      your modded instances completely separate from your vanilla one, so you
+      don't risk corrupting your regular save files.
+      <br>
+      <i>Not that corrupting your worlds with dragons would be the wooorst thing
+        ever.. >:)</i>
+    </p>
+
+    <p>
+      In terms of security, Prism Launcher is open-source, and, i mean,
+      <a href="https://github.com/orgs/PrismLauncher/discussions/3861">they say
+        they're not a virus</a>, so like, that's good. You will need to log into
+      it, but you can revoke the app's access to your Minecraft account at any
+      time under the "App Access" area <a href="https://account.microsoft.com/privacy/app-access">here</a>.
+      You can read more about the launcher on their
+      <a href="https://prismlauncher.org/wiki/overview/faq/">FAQ</a>.
+    </p>
+
+    <h2>Prism Launcher</h2>
+
+    <p>
+      Download the latest version of <a href="https://prismlauncher.org/">Prism
+        Launcher</a> and install it. When you open it for the first time, you
+      should see a window prompting you to choose your language, then to sign into
+      your Microsoft account.
+    </p>
+
+    <img src="img/prism1.png">
+
+    <p>
+      Once you've signed in, you should see a window that looks something like
+      this. Click on "Add Instance" in the top left.
+    </p>
+
+    <img src="img/prism2.png">
+
+    <p>
+      You should see something like this. If you just want to play regular
+      Minecraft, then you're done! But you wanna play with <i>dragons</i>, right??
+    </p>
+
+    <p>
+      On this screen, make sure to:
+    <ul>
+      <li>Give it a <b>descriptive name</b>.</li>
+      <li>Set the <b>Minecraft version</b> to <code>1.21.1</code>.</li>
+      <li>Check the <b>NeoForge Mod Loader</b> option near the bottom right, and choose the <b>latest</b> version
+        (<code>21.1.212</code> at the time of writing).</li>
+    </ul>
+    Then click "OK".
+    </p>
+
+    <img src="img/prism3.png">
+
+    <p>You should see your new instance. Right click on it, and select <b>Edit...</b></p>
+
+    <img src="img/prism4.png" class="fake-shadow">
+
+    <p>Click on <b>mods</b>, then click on <b>Download mods</b>.</p>
+
+    <img src="img/prism5.png">
+
+    <p>Click on <b>CurseForge</b>, then search for <code>Dragon Survival</code>.
+      Find the mod just called "Dragon Survival", by BlackAuresArt. <i>You might
+        have to scroll down to find it.</i> It's the one with this cool dragon art!
+    </p>
+
+    <p>Select version <code>DragonSurvival-1.21.1-v2.0.37-21.10.2025-all.jar</code>,
+      then click on <b>Select mod for download</b>.
+    </p>
+
+    <img src="img/prism6.png">
+
+    <p>
+      Now search for <code>GeckoLib</code>, select it, and choose the <b>latest
+        version</b> (<code>geckolib-neoforge-1.21.1-4.8.2.jar</code> at the time
+      of writing). Click on <b>Select mod for download</b>.
+    </p>
+
+    <img src="img/prism7.png">
+
+    <p>
+      That's all that's required to play on the server! But you can
+      install extra mods if you want, as long as they're compatible with the dragon stuff.
+      See the next section for some recommendations.
+    </p>
+
+    <p>
+      When you're done adding mods, click <b>Review and confirm</b> at the very bottom.
+      Make sure you have everything you want, then click <b>OK</b>.
+    </p>
+
+    <img src="img/prism8.png">
+
+    <p>
+      Close out of the windows until you're back to the main menu, then double-click
+      on your <i>Dragon Survival</i> instance to launch the game!
+    </p>
+
+    <p>
+      The game will take a few minutes to launch the first time, as it's downloading
+      everything.
+    </p>
+
+    <img src="img/prism9.png">
+
+    <p>
+      You're done! Click <b>Multiplayer</b> and connect to the server with the
+      connection info I've given you! The server uses a whitelist, so make sure
+      I have your username. You can check it in the top-right corner of the
+      Prism Launcher window.
+    </p>
+
+    <img src="img/prism10.png">
+
+    <h2 id="mod-list">Complete Mod List</h2>
+
+    <p>
+      Here are some additional mods that I recommend downloading. They can be
+      obtained the same way as the others, in the "Mods" section of your instance's
+      console window. Screenshot is for reference, see the actual version numbers
+      in the table below.
+    </p>
+
+    <p>
+      If you're here because I linked you from the top of the page, also make sure
+      you're running Minecraft <b>1.21.1</b> and have these versions of <b>Dragon
+        Survival</b> and <b>GeckoLib</b>.
+    </p>
+
+    <img src="img/mods1.png">
+
+    <table>
+      <tr>
+        <th>Mod</th>
+        <th>Version</th>
+        <th>What it does</th>
+      </tr>
+      <tr>
+        <td>Cubes Without Borders</td>
+        <td><b>Latest</b>, or <code>cwb-neoforge-3.0.0+mc1.21.jar</code></td>
+        <td>Implements borderless fullscreen, which the vanilla game lacks.</td>
+      </tr>
+      <tr>
+        <td>Distant Horizons</td>
+        <td>Latest, hopefully newer than <code>DistantHorizons-2.3.6-b-1.21.1-fabric-neoforge.jar</code></td>
+        <td>Adds low-LOD rendering to faraway blocks, letting you see <i>really</i> far
+          without tanking your performance much at all. Compatible with lots of shaders, too.
+        </td>
+      </tr>
+      <tr>
+        <th>Dragon Survival</th>
+        <td><code>DragonSurvival-1.21.1-v2.0.37-21.10.2025-all.jar</code></td>
+        <td>Dwagons!</td>
+      </tr>
+      <tr>
+        <th>Geckolib</th>
+        <td><b>Latest</b>, or <code>geckolib-neoforge-1.21.1-4.8.2.jar</code></td>
+        <td>Required by Dragon Survival.</td>
+      </tr>
+      <tr>
+        <td>Iris</td>
+        <td><b>Latest</b>, or <code>iris-neoforge-1.8.12+mc1.21.1.jar</code></td>
+        <td>Implements shaders, letting you install shader packs to make the game
+          look pretty. See below.
+        </td>
+      </tr>
+      <tr>
+        <td>Lithium</td>
+        <td><code>lithium-neoforge-0.15.0+mc1.21.1.jar</code><br>newer might be OK.</td>
+        <td>Game engine performance optimizations.</td>
+      </tr>
+      <tr>
+        <td>Sodium</td>
+        <td><b>Latest</b>, or <code>sodium-neoforge-0.6.13+mc1.21.1.jar</code></td>
+        <td>Rendering performance optimizations.</td>
+      </tr>
+      <tr>
+        <td>Sodium Extra</td>
+        <td><b>Latest</b>, or <code>sodium-extra-neoforge-0.6.0+mc1.21.1.jar</code></td>
+        <td>Adds extra visual settings, like showing FPS, disabling animations, or modifying fog/clouds.</td>
+      </tr>
+      <tr>
+        <td>Xaero's Minimap</td>
+        <td><code>Xaeros_Minimap_25.2.10_NeoForge_1.21.jar</code><br>newer might be OK.</td>
+        <td>Adds a minimap to the game, highly configurable. Kinda overpowered, but <i>c'est la vie</i>
+          since the official in-game maps are so unbelievably terrible 😔.</td>
+      </tr>
+    </table>
+
+    <p>
+      <b>Note about Distant Horizons:</b> for whatever reason, the latest (as of writing) version
+      has some kind of bug where it sometimes crashes on launch with an error like this.
+      IDK what causes it, but restarting the game a few times fixes it. Hopefully the
+      mod updates to fix it, because I really really recommend it, even if you have
+      to put up with some jank like this:
+    </p>
+
+    <img src="img/error1.png">
+
+    <h2>Shaders</h2>
+
+    <p>
+      Shaders are graphical mods that completely change how the game is rendered,
+      often adding stuff like realtime lighting, shadows, and other eye candy.
+      Prism Launcher can manage shaders for you, or you can install them manually
+      by searching the web for "Minecraft shaders" and following their installation
+      instructions.
+    </p>
+
+    <p>
+      <b>You must have the <code>Sodium</code> and <code>Iris</code> mods
+        installed in order to use shaders!!</b>
+    </p>
+
+    <p>
+      Click on <b>Shader packs</b> on the left, then <b>Download shaders</b> on
+      the right.
+    </p>
+
+    <img src="img/shaders1.png">
+
+    <p>
+      Search for whatever you like, and download whatever you want. Shaders have
+      their own compatibilty quirks, but generally work with most mods. If you're
+      using <code>Distant Horizons</code>, make sure your shader is on this
+      <a href="https://gist.github.com/Steveplays28/52db568f297ded527da56dbe6deeec0e">
+        compatibility list
+      </a> (or otherwise indicates that it is compatible with DH).<br>
+    </p>
+
+    <p>
+      My go-to shader pack is <code>BSL Shaders</code>. I find it has a good balance
+      between performance and quality, and it looks nice without looking too drastically different
+      from the vanilla Minecraft vibe. It also supports Distant Horizons.
+    </p>
+
+    <p>
+      Select your shader, then click <b>Select shader pack for download</b>,
+      then click <b>Review and confirm</b>. You will see a confirmation window
+      similar to the one for installing mods. Click <b>OK</b>.
+    </p>
+
+    <img src="img/shaders2.png">
+
+    <h2 id="update-mods">Updating Mods</h2>
+
+    <p>
+      To update your mods, right click on your Dragon Survival instance and select
+      <b>Edit...</b>.
+    </p>
+
+    <img src="img/prism4.png" class="fake-shadow">
+
+    <p>
+      Then click on <b>Check for Updates</b> on the right.
+    </p>
+
+    <img src="img/update1.png">
+
+    <p>
+      You should see a window showing all available mod updates. The launcher
+      usually does a good job of making sure that the new updates will be
+      compatible, with everything else but it's good to double-check what it's
+      doing before clicking OK.
+    </p>
+
+    <img src="img/update2.png">
+
+    <p>Have fun! :3</p>
+
+    <img src="img/eepy.png" style="border-radius: 15px;">
+  </div>
+
+</body>
+
+</html>
